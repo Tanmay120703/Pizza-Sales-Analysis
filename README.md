@@ -1,78 +1,86 @@
 # Pizza Sales Analysis Project
 
-This repository contains a comprehensive data analysis project focusing on pizza sales. The project leverages Power BI for visualization and MySQL for data handling and queries. Below, you will find an overview of the project, setup instructions, and insights obtained from the analysis.
+* This repository contains a comprehensive data analysis project focusing on pizza sales. The project leverages Power BI for visualization and MySQL for data handling and queries. Below, you will find an overview of the project, setup instructions, and insights obtained from the analysis.
 
 # Project Overview
 
 # Objective
 
-To analyze pizza sales data and uncover key insights related to revenue, pricing trends, and sales performance.
+* To analyze pizza sales data and uncover key insights related to revenue, pricing trends, and sales performance.
 
 # Tools Used
 
-Power BI: For creating interactive dashboards and visualizations.
+* Power BI: For creating interactive dashboards and visualizations.
 
-MySQL: For efficient data storage and querying.
+* MySQL: For efficient data storage and querying.
+
+# Data Set
+* The project utilizes the following dataset pizza_sales_excel_file and contains information about
+
+* Pizza types and prices
+
+* Sales records
+
+* Date and time of sales
+
+* Other relevant attributes for analysis
 
 # Data Source
 
-The dataset used for this project is provided in Excel format under the file name pizza_sales_excel_price. It contains details on:
-
-Pizza types and prices
-
-Sales records
-
-Date and time of sales
-
-Other relevant attributes for analysis
+* The datasource is provided in the repository as pizza_sales_excel_file.csv
 
 # Project Files
 
-pizzasales.pbix: Power BI project file containing dashboards and visualizations.
+* pizzasales.pbix: Power BI project file containing dashboards and visualizations.
 
-pizzasales.sql: SQL file with scripts to create and populate the database.
+* pizzasales.sql: SQL file with scripts to create and populate the database.
 
 # Key Insights
 
-The analysis conducted in this project provides insights such as:
+* The analysis conducted in this project provides insights such as:
 
-Top-selling pizzas and revenue contributions
+* Top-selling pizzas and revenue contributions
 
-Monthly and weekly sales trends
+* Monthly and weekly sales trends
 
-Pricing strategies and their impact on sales
+* Pricing strategies and their impact on sales
 
-Performance comparisons across different pizza categories
-
-Getting Started
+* Performance comparisons across different pizza categories
 
 # Prerequisites
 
-Power BI Desktop for opening the .pbix file.
+* Power BI Desktop for opening the .pbix file.
 
-MySQL Server installed locally or hosted in the cloud for executing the SQL scripts.
+* MySQL Server installed locally or hosted in the cloud for executing the SQL scripts.
 
-Setup Instructions
+# Setup Instructions
 
-Database Setup:
+# Database Setup:
 
-Import the pizzasales.sql file into your MySQL Server using a client like MySQL Workbench.
+* Import the pizzasales.sql file into your MySQL Server using a client like MySQL Workbench.
 
-Run the script to create the necessary tables and populate them with data.
+* Run the script to create the necessary tables and populate them with data.
 
-Power BI Dashboard:
+* Power BI Dashboard:
 
-Open the pizzasales.pbix file in Power BI Desktop.
+* Open the pizzasales.pbix file in Power BI Desktop.
 
-Ensure the data source connection in Power BI is updated to point to your MySQL Server instance.
+* Ensure the data source connection in Power BI is updated to point to your MySQL Server instance.
 
 # Visualization Highlights
 
-The Power BI dashboard includes:
+* The Power BI dashboard includes:
 
-Revenue Breakdown: A detailed view of sales performance by pizza type and category.
+* Revenue Breakdown: A detailed view of sales performance by pizza type and category.
 
-Trend Analysis: Charts showing sales trends over time.
+* Trend Analysis: Charts showing sales trends over time.
 
-Top Performers: Identification of the highest-selling pizzas and most profitable pricing strategies.
+* Top Performers: Identification of the highest-selling pizzas and most profitable pricing strategies.
+# Results
+
+* Revenue Highlights
+
+* The Pepperoni Pizza category generated the highest revenue, contributing 35% to total sales.
+
+* Seasonal promotions led to a 20% revenue spike during holiday months.
 
